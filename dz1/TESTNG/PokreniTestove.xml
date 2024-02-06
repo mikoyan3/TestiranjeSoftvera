@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_mavenproject1_jar_1.0-SNAPSHOT">
+    
+    <test name="test1">
+        <classes>
+            <class name="PrijavaTestovi.LozinkaNijeDobraTest"/>
+            <class name="PrijavaTestovi.NepostojeceKorisnickoImeTest"/>
+            <class name="PrijavaTestovi.PraznaLozinkaTest"/>
+            <class name="PrijavaTestovi.PraznoKorImeTest"/>
+            <class name="PrijavaTestovi.UspesnaPrijavaTest"/>
+            <class name="PrijavaTestovi.NeuspesnaPretragaTest"/>
+            <class name="PrijavaTestovi.UspesnaPretragaKompanijePosaoTest"/>
+            <class name="PrijavaTestovi.UspesnaPretragaKompanijePraksaPosaoTest"/>
+            <class name="PrijavaTestovi.UspesnaPretragaPraksaTest"/>
+            <class name="PrijavaTestovi.UspesnoStvorenKonkursBezFajlovaTest"/>
+        </classes>
+    </test>
+</suite>
